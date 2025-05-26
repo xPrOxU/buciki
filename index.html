@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Obuwie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Obuwie męskie</h1>
+    </header>
+    <main>
+<form action="zamow.php" method="post">
+            <label for="model">Model: </label>
+            <select name="model" id="model" class="kontrolka">
+            </select>
+            <br><br>
+            <label for="rozmiar">Rozmiar: </label>
+            <select name="rozmiar" id="rozmiar" class="kontrolka">
+                <option value="40">40</option>
+                <option value="41">41</option>
+                <option value="42">42</option>
+                <option value="43">43</option>
+            </select>
+            <br><br>
+            <label for="liczba">Liczba par: </label>
+            <input type="number" name="liczba" id="liczba" min="1" required class="kontrolka">
+            <br><br>
+            <button type="submit" class="kontrolka">Zamów</button>
+            
+        <div class="buty">
+            <img src="but1.png" alt="But 1" width="120">
+            <h2>PÓŁBUTY WIZYTOWE</h2>
+            <h4>Cena: 188.00</h4>
+            <p>Model: P-59-03</p>
+        </div>
+        <div class="buty">
+            <img src="but2.png" alt="But 2" width="120">
+            <h2>TRZEWINKI SZNUROWANE</h2>
+            <h4>Cena: 399.00</h4>
+            <p>Model: T-02-44</p>
+        </div>
+        <div class="buty">
+            <img src="but3.png" alt="But 3" width="120">
+            <h2>TRAMPKI SLIP ON</h2>
+            <h4>Cena: 77.99</h4>
+            <p>Model: T-03-32</p>
+        </div>
+        <div class="buty">
+            <img src="but4.png" alt="But 4" width="120">
+            <h2>SZYBKI HAJ KIKS</h2>
+            <h4>Cena: 259.00</h4>
+            <p>Model: SZTOS LIMITED EDYSZYN</p>
+        </div>
+        </form>
+    </main>
+    <footer>
+        <p>Autor strony: 00000000000 </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,40 @@
+* {
+    font-family: Cambria, serif;
+}
+header, footer {
+    background-color: sienna;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+main {
+    background-color: AntiqueWhite;
+    height: 700px;
+    font-size: 120%;
+    overflow: auto;
+}
+.kontrolka {
+    width: 150px;
+    margin: 10px;
+}
+.buty {
+    width: 70%;
+    margin: 15px;
+    padding: 7px;
+    border: 1px solid sienna;
+    border-radius: 30px;
+    transition: background 0.3s;
+}
+.buty:hover {
+    background-color: Linen;
+}
+img {
+    float: left;
+    margin-right: 30px;
+    width: 160px;
+}
+h4 {
+    background-color: sienna;
+    color: rgb(7, 6, 6);
+    text-align: right;
+}
